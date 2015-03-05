@@ -131,7 +131,7 @@ var frogName = kermit;
 console.log(frogName);
 
 //To double quote or not to double quote
-//Can use an en escape character \ blackslash in front of the '
+//Can use an en escape character \ backslash in front of the '
 var phrase = 'I don\'t know';
 console.log(phrase);
 
@@ -139,7 +139,7 @@ console.log(phrase);
 var phrase2 = "I don't know. \nYou never do!";
 console.log(phrase2);
 
-//Booleen - kind od like a light swtich
+//Booleen - kind od like a light switch
 // Either true or false
 //NOT a text string!! Must be lowercase!!
 
@@ -160,4 +160,29 @@ var quiz3 =90;
 var average = (quiz1 + quiz2 + quiz3) /3;
 console.log(average );
 
+//Concatenation - combing text strings
+// use the plus sign - add and concatenation
+var firstName = "Kermit";
+var lastName = "The Frog";
+var fullName = firstName +" "+ lastName;
+console.log(fullName);
 
+var d =6;
+var e ="7";
+var combined = d+e;
+console.log(combined);
+// If you want the text string to be a number you have to cast it
+//Number(the text string)
+
+var combined = d+Number(e);
+console.log(combined);
+
+var pi = 3.14;
+
+// To round a number we use the .toFixed(#)
+var nun = 5.5678912345;
+
+//Round to 2 decimal places
+var n = nun.toFixed(2);
+
+console.log(n); 
