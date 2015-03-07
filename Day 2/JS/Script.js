@@ -185,4 +185,6 @@ var nun = 5.5678912345;
 //Round to 2 decimal places
 var n = nun.toFixed(2);
 
-console.log(n); 
+console.log("The rounded number to 2 decimal places is "+n);
+
+
