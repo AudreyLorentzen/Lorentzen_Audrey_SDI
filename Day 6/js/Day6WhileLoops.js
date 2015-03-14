@@ -41,5 +41,5 @@ Day 6 While Loops
      i++;
  } while (i<10);
 
- 
+
 
