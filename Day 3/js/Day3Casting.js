@@ -8,7 +8,7 @@ Day 3 Casting
 
  alert("Just Testing.");
 
- //Casting variables means treating one datatype like another....if possible
+ //Casting variables means treating one data type like another....if possible
 
  var stringVar = "6";
  var results = 7 + stringVar;
@@ -53,5 +53,4 @@ Day 3 Casting
 
  var totalShirts = parseInt(tshirtsOwned) + Number(tshirtsBought);
  console.log("You currently own " + totalShirts+" shirts.");
- 
 

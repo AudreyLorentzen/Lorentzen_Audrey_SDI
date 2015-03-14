@@ -168,7 +168,7 @@ var fullName = firstName +" "+ lastName;
 console.log(fullName);
 
 var d =6;
-var e ="7";
+var e =7;
 var combined = d+e;
 console.log(combined);
 // If you want the text string to be a number you have to cast it

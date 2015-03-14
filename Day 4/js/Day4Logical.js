@@ -27,7 +27,7 @@ Day 4 Logical
  //We can buy the car IF our budget is greater than or equal to
 
  if(budget >= carPrice || payCheck >1500){
-     
+
  };
 
 
@@ -56,4 +56,6 @@ Day 4 Logical
  } else{
      console.log("Pick a cheaper car or find a better job.");
  }
+
+
 

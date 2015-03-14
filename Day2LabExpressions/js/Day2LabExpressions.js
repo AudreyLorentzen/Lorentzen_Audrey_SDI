@@ -5,7 +5,7 @@
  Day 2 Lab Expressions
  */
 
-//alert("Still testing.");
+alert("Hi there, need anything?");
 
 
 console.log("Slice of Pie Part I.");
