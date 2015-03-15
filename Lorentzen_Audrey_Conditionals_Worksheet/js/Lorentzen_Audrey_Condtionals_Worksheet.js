@@ -6,13 +6,22 @@ Section 00
 Condtionals Worksheet
 */
 
- alert("Still Testing.");
+ //alert("Still Testing.");
 
- //Gas Mileage
- //Declare your variables
+ //Celsius to Fahrenheit converter
+ //Tourist is in Russia visiting from USA, they use Celsius in Russia and she is used to Fahrenheit
 
- var mpg = 27
- var gasEfficiency = prompt("");
+ //Tourist wants to convert celsius to fahrenheit
+ var temp = prompt("What temperature are you trying to convert to Fahrenheit?\nType in the number with a C or F next to it: ");
+
+ var f = ("fahrenheit");
+ var c = ("celsius.");
+
+ var formulaForCelsius = c*9/5+32=f;
+
+
+
+
 
 
 
