@@ -49,4 +49,5 @@ Day 7 Return
  var resultsTwice = circArea*2
  console.log("Twice the area is "+resultsTwice+".");
 
+
  
