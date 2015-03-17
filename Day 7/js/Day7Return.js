@@ -46,7 +46,7 @@ Day 7 Return
  console.log("The area of the circle is "+circArea+".");
 
  //What is twice the circle area of a 6 inch circle
- var resultsTwice = circArea*2
+ var resultsTwice = circArea*2;
  console.log("Twice the area is "+resultsTwice+".");
 
 
