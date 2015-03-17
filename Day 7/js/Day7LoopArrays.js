@@ -61,4 +61,3 @@ Day 7 Loop Arrays
  //Calculate the average
  average = total / numItems;
  console.log("The average is "+average+".");
- 
