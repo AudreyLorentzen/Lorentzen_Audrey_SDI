@@ -11,7 +11,8 @@ Day 6 For Loops
  // for(initialization; condition; increment of change){}
  // We use i ALOT in loops - because it stands for iteration - time around
 
- for(var i = 0; i<20; i++){
+ for(var i = 0; i<20; i++)
+ {
      console.log("The value of i is "+ i);
 
  }
@@ -20,11 +21,13 @@ Day 6 For Loops
 
  //Break in a loop
 
- for(var j = 0; j<5; j++){
+ for(var j = 0; j<5; j++)
+ {
      //Conditional to test if we should break the loop
      //If the value of j is 3, then console.log out something different and stop the loop
 
-     if(j===3){
+     if(j===3)
+     {
          //Stop the loop but first console.log out something
          console.log("3 is 3!!!");
          break;
@@ -40,13 +43,19 @@ Day 6 For Loops
 
 //Specific cases for each value
 
- for(var k = 0; k<3; k++){
+ for(var k = 0; k<3; k++)
+ {
 
-     if(k===0){
+     if(k===0)
+     {
          console.log("The value is zero.");
-     }else if(k===1){
+     }
+     else if(k===1)
+     {
          console.log("The value is one.");
-     }else if(k===2){
+     }
+     else if(k===2)
+     {
          console.log("The value is two.");
      }
 

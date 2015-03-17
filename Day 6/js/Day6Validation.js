@@ -13,14 +13,18 @@ Day 6 Validation
 
  //Validate that the user typed in a number OR didn't leave it blank
  //Validate using a while loop
- while(isNaN(num1) || num1===""){
+ while(isNaN(num1) || num1==="")
+ {
 
      //Reprompt the user
-     if(num1===""){
+     if(num1==="")
+     {
          //The user left it blank
          num1 = prompt("Please do not leave blank!\nPlease type in a number:");
 
-     }else if(isNaN(num1)){
+     }
+     else if(isNaN(num1))
+     {
          num1 = prompt("Please only type in numbers!\nEnter a number:");
      }
 
@@ -32,7 +36,8 @@ Day 6 Validation
  userInput = userInput.toLowerCase();
 
  //Validate
- while(userInput != "yes" && userInput != "no" && userInput != "nope"){
+ while(userInput != "yes" && userInput != "no" && userInput != "nope")
+ {
 
      //Reprompt the user
      userInput = prompt("Please only enter yes or no!\nPlease type in yes or no:");

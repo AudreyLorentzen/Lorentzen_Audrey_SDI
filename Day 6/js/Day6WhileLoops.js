@@ -15,7 +15,8 @@ Day 6 While Loops
 
  //Start a while loop
  //Condition to test goes inside of ()
- while(counter<200){
+ while(counter<200)
+ {
      console.log("Some things never end!");
      console.log(counter);
 
@@ -35,11 +36,13 @@ Day 6 While Loops
  //Declare a counting variable
  var i = 20;
 
- do{
+ do
+ {
      console.log("The number is "+i);
      //Change the counting variable
      i++;
- } while (i<10);
+ }
+ while (i<10);
 
 
 
