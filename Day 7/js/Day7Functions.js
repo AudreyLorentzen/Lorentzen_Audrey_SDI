@@ -15,7 +15,7 @@ Day 7 Fucntions
  // Basic structure of a function
  // function functionName(){ code to run }
 
- // Create a function that will concole log out hello
+ // Create a function that will console log out hello
  function printHello()
  {
      console.log("Hello and Howdy!")

@@ -32,7 +32,7 @@ Day 8 Anon Functions
  console.log("The area from the anon function before the definition is "+anonArea2+".");
  */
 
- //Build a function function for area of a triangle
+ //Build a function for area of a triangle
 
  function triangleArea(b,h)
  {
@@ -47,7 +47,7 @@ Day 8 Anon Functions
  {
      var area =.5*b*h;
      return area;
- }
+ };
 
  //Function call to basic function
 
