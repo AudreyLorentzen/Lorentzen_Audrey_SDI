@@ -34,6 +34,10 @@ Lorentzen_Audrey_Functions_Worksheet
  var costAmount = teddyAfrica(totalKids);
  console.log("The total cost amount for the bears needed for "+totalKids+" kids would be "+costAmount+" dollars.");
 
+ /*
+ I typed in 500 for the amount of kids and I got 6000 dollars.
+  */
+
 
  //Prompt for anon function
  var water = prompt("We will send the same amount of supplies needed for one area to a total of three.\nFirst, how many people need water?");
@@ -68,5 +72,8 @@ Lorentzen_Audrey_Functions_Worksheet
  //Function call to the anon function
  var amountSupplies = suppliesAfrica(water, food, clothes);
  console.log("The total amount of people needed for each supply, would be "+amountSupplies+".");
+ /*
+ I typed in 12 people needed each supply to get 108 total of people included all three areas.
+  */
 
 
