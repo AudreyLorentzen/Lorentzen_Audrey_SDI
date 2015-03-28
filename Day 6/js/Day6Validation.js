@@ -16,10 +16,10 @@ Day 6 Validation
  while(isNaN(num1) || num1==="")
  {
 
-     //Reprompt the user
+    //Reprompt the user
      if(num1==="")
      {
-         //The user left it blank
+         //The user left it/ blank
          num1 = prompt("Please do not leave blank!\nPlease type in a number:");
 
      }

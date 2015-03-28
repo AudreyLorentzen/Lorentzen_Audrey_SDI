@@ -17,7 +17,7 @@ Condtionals Worksheet
  var f = ("fahrenheit");
  var c = ("celsius.");
 
- var formulaForCelsius = c*9/5+32=f;
+ var formulaForCelsius = c*9/5+32;
 
 
 
